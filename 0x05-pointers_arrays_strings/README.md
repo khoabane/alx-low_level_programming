@@ -12,3 +12,6 @@ FYI: The standard library provides a similar function: strlen. Run man strlen to
 
 Prototype: void _puts(char *str);
 FYI: The standard library provides a similar function: puts. Run man puts to learn more.
+4-print_rev.c a function that prints a string, in reverse, followed by a new line.
+
+Prototype: void print_rev(char *s);
