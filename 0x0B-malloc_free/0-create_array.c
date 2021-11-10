@@ -18,15 +18,15 @@ unsigned int index;
 array = malloc(sizeof(char) * size);
 
 
-if(size == 0)
+if (size == 0)
 return (NULL);
 
 
-if(array == NULL)
+if (array == NULL)
 return (NULL);
 
 for (index = 0; index < size; index++)
 array[index] = c;
 
-return(array);
+return (array);
 }
